@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button {
+    font-size: 1.6rem;
+    border-radius: 12px;
+    padding: 9px 20px;
+    border: 1px solid black;
+}

@@ -1,0 +1,9 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import "general.css";
+@import "sections/hero.css";
+@import "sections/specialists.css";
+@import "sections/help.css";
+@import "sections/questions.css";
+@import "sections/qualification.css";
+@import "sections/footer.css";
