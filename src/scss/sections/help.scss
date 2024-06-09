@@ -1,0 +1,40 @@
+.help {
+  background-color: cornflowerblue;
+  margin: 80px 0;
+}
+
+.help__container {
+  padding: 80px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 71px;
+}
+
+.help__title {
+  font-size: 5.2rem;
+  font-weight: 500;
+  line-height: 1.1;
+  width: 485px;
+}
+
+.help__info-group {
+  width: 280px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.help__info-main {
+  font-size: 2.4rem;
+}
+
+.help__info {
+  font-size: 1.6rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.help__button {
+  border: white;
+}
