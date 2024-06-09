@@ -4,6 +4,7 @@
 @import "sections/hero.css";
 @import "sections/specialists.css";
 @import "sections/help.css";
-@import "sections/questions.css";
 @import "sections/qualification.css";
+@import "sections/article.css";
+@import "sections/questions.css";
 @import "sections/footer.css";

@@ -31,6 +31,10 @@
     gap: 60px;
 }
 
+.header__nav-link:hover {
+    color: cornflowerblue;
+}
+
 .header__button {
     font-size: 1.4rem;
     font-weight: 600;
