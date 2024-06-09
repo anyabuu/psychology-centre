@@ -15,6 +15,10 @@
     border-bottom: 1px solid #222b401a;
 }
 
+.questions__item-subtitle:hover {
+    color: cornflowerblue;
+}
+
 .questions__item-subtitle::before {
     content: "";
     width: 19px;

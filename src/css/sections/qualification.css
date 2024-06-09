@@ -4,7 +4,7 @@
 
 .qualification__text-group {
     display: flex;
-    gap: 72px;
+    justify-content: space-between;
     align-items: baseline;
 }
 
@@ -14,10 +14,15 @@
     line-height: 1.1;
 }
 
+.qualification__title--accent {
+    color: cornflowerblue;
+}
+
 .qualification__description-group {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 32%;
 }
 
 .qualification__description-principals {

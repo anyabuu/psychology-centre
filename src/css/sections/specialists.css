@@ -59,6 +59,11 @@
     overflow: hidden;
 }
 
+.specialists__card:hover {
+    box-shadow: 2px 2px 2px 2px #222b4066;
+    cursor: pointer;
+}
+
 .specialists__card-photo {
     width: 100%;
     height: 216px;

@@ -88,6 +88,10 @@
     display: flex;
 }
 
+.footer__info-social-link:hover {
+    background-color: cornflowerblue;
+}
+
 .footer__info-social-logo {
     width: 20px;
     height: 20px;

@@ -35,6 +35,10 @@
     cursor: pointer;
 }
 
+.article__card:hover {
+    box-shadow: 2px 2px 2px 2px #222b4066;
+}
+
 .article__card-profile-group {
     display: flex;
     align-items: center;
