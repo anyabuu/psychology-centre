@@ -40,10 +40,15 @@
   line-height: 1.2;
 }
 
-.hero-content {
+.hero__container {
   display: flex;
-  flex-direction: column;
-  margin: 131px auto 70px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+
+.hero-content {
+  margin-top: 6%;
 }
 
 .hero__title {
@@ -63,6 +68,6 @@
   width: 210px;
 }
 
-.hero__background {
-  width: 480px;
+.hero__image {
+  width: 45%;
 }
