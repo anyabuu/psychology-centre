@@ -1,5 +1,9 @@
 .footer {
   padding: 80px 0;
+
+  @include media-tablet {
+    padding: 40px 0;
+  }
 }
 
 .footer__main-group {
@@ -23,6 +27,11 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+
+  @include media-phone {
+    margin-top: 25px;
+    flex-direction: column;
+  }
 }
 
 .footer__group-nav {
@@ -55,6 +64,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @include media-phone {
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 
 .footer__info-rights {

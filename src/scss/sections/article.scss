@@ -1,18 +1,32 @@
-.article {
-  padding: 80px 0;
-}
-
 .article__title-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+
+  @include media-tablet {
+    gap: 46px;
+  }
+
+  @include media-phone {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
 }
 
 .article__title {
   font-size: 5.2rem;
   font-weight: 500;
   line-height: 1.1;
+
+  @include media-tablet {
+    font-size: 4rem;
+  }
+
+  @include media-phone {
+    font-size: 3rem;
+  }
 }
 
 .article__button {
@@ -26,6 +40,15 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
+
+  @include media-tablet {
+    justify-content: center;
+  }
+
+  @include media-phone {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .article__card {
@@ -33,6 +56,14 @@
   border-radius: 8px;
   width: 350px;
   cursor: pointer;
+
+  @include media-tablet {
+    width: 45%;
+  }
+
+  @include media-phone {
+    width: 85%;
+  }
 }
 
 .article__card:hover {
@@ -72,6 +103,10 @@
 
 .article__card-wrapper {
   padding: 20px;
+
+  @include media-phone {
+    padding: 17px;
+  }
 }
 
 .article__card-title {
@@ -111,6 +146,10 @@
   align-items: center;
   gap: 3px;
   margin-left: -40%;
+
+  @include media-phone {
+    margin-left: 0;
+  }
 }
 
 .article__card-info-likes-icon {

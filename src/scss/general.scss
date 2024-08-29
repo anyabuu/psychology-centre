@@ -12,6 +12,14 @@ html {
   width: 1110px;
   margin-right: auto;
   margin-left: auto;
+
+  @include media-tablet {
+    width: 90%;
+  }
+
+  @include media-tablet {
+    width: 88%;
+  }
 }
 
 .button {

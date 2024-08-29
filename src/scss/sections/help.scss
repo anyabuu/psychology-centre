@@ -1,6 +1,10 @@
 .help {
   background-color: cornflowerblue;
   margin: 80px 0;
+
+  @include media-phone {
+    margin: 30px 0;
+  }
 }
 
 .help__container {
@@ -10,6 +14,14 @@
   align-items: center;
   justify-content: space-around;
   gap: 71px;
+
+  @include media-tablet {
+    gap: 15px;
+  }
+
+  @include media-phone {
+    flex-direction: column;
+  }
 }
 
 .help__title {
@@ -17,22 +29,43 @@
   font-weight: 500;
   line-height: 1.1;
   width: 485px;
+
+  @include media-tablet {
+    font-size: 4rem;
+  }
+
+  @include media-phone {
+    width: auto;
+    font-size: 3rem;
+  }
 }
 
 .help__info-group {
   width: 280px;
   font-weight: 500;
   line-height: 1.1;
+
+  @include media-phone {
+    margin-top: 40px;
+  }
 }
 
 .help__info-main {
   font-size: 2.4rem;
+
+  @include media-tablet {
+    display: none;
+  }
 }
 
 .help__info {
   font-size: 1.6rem;
   margin-top: 20px;
   margin-bottom: 50px;
+
+  @include media-tablet {
+    display: none;
+  }
 }
 
 .help__button {
